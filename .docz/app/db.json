@@ -1,0 +1,77 @@
+{
+  "config": {
+    "title": "Pd Base Ui",
+    "description": "My awesome app using docz",
+    "menu": [],
+    "version": "1.0.0",
+    "repository": null,
+    "native": false,
+    "themeConfig": {},
+    "separator": "-"
+  },
+  "entries": [
+    {
+      "key": "src/Card/Card.mdx",
+      "value": {
+        "id": "c675a9dbdf2039120b40211a2bcd031a",
+        "filepath": "src/Card/Card.mdx",
+        "fullpath": "/Users/4paradigm/Desktop/react-components-lib/src/Card/Card.mdx",
+        "link": "",
+        "hidden": false,
+        "slug": "src-card-card",
+        "route": "/src-card-card",
+        "name": "Card",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "route-",
+            "depth": 2,
+            "value": "route: /"
+          },
+          {
+            "slug": "card",
+            "depth": 1,
+            "value": "Card"
+          },
+          {
+            "slug": "basic-usage",
+            "depth": 2,
+            "value": "Basic usage"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/Table/Table.mdx",
+      "value": {
+        "id": "b6e1f872833eed1f9812b34ca571c4ce",
+        "filepath": "src/Table/Table.mdx",
+        "fullpath": "/Users/4paradigm/Desktop/react-components-lib/src/Table/Table.mdx",
+        "link": "",
+        "hidden": false,
+        "slug": "src-table-table",
+        "route": "/src-table-table",
+        "name": "Table",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "route-table",
+            "depth": 2,
+            "value": "route: /table"
+          },
+          {
+            "slug": "table",
+            "depth": 1,
+            "value": "Table"
+          },
+          {
+            "slug": "basic-usage",
+            "depth": 2,
+            "value": "Basic usage"
+          }
+        ]
+      }
+    }
+  ],
+  "props": []
+}
