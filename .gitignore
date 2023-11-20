@@ -2,3 +2,5 @@ node_modules
 dist
 libs
 package-lock.json
+yarn.lock
+.docz
