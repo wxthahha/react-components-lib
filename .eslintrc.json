@@ -1,0 +1,21 @@
+{
+  "parserOptions": {
+    "babelOptions": {
+      "presets": [
+        [
+          "babel-preset-react-app",
+          false
+        ],
+        [
+          "babel-preset-react-app/prod"
+        ]
+      ]
+    }
+  },
+  "extends": [
+    "react-app"
+  ],
+  "rules": {
+    "jsx-a11y/anchor-is-valid": 0
+  }
+}

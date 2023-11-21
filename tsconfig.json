@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    // "target": "esnext",
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    // "importHelpers": true,
+    "jsx": "react",
+    "sourceMap": true,
+    // "strict": true,
+    "types": ["node"],
+    "paths": {
+      "@/*": ["src/*"],
+      "@mobile@/*": ["src/apps/mobile/*"],
+      "@pc@/*": ["src/apps/pc/*"]
+    }
+  },
+  "include": ["src", "src/**/*", "src/**/*.ts", "config/**/*", "typings.d.ts", "index.d.ts", "public/assets/hash.js"],
+  // "exclude": [
+  //   // 指定一个排除列表（include的反向操作）
+  //   "node_modules"
+  // ],
+  "resolveJsonModule": true,
+  "resolve": {
+    "extensions": [".ts", ".tsx", ".js", ".jsx", ".json"]
+  }
+}
